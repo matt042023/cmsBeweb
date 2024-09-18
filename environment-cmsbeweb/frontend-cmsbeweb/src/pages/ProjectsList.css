@@ -1,0 +1,21 @@
+#searchaddprojectslist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 3.125rem;
+    margin:1.5rem auto;
+    width:68.75rem;
+  }
+  
+  #searchaddprojectslist > * {
+    flex: 1;
+  }
+
+  #searchaddprojectslist > :first-child {
+    margin-right: auto;
+  }
+  
+  #searchaddprojectslist > :last-child {
+    margin-left: auto;
+    flex: none; 
+  }

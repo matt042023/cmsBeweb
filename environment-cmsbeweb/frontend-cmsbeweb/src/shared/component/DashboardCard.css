@@ -1,0 +1,19 @@
+.card-title {
+    font-style: bold;
+    display: flex;
+    align-items: center;
+}
+
+.card-title i {
+    margin-right: 5%;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body-container:hover {
+    cursor:pointer;
+}

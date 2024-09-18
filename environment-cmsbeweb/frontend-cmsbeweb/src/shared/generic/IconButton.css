@@ -1,0 +1,22 @@
+/* GENERIC */
+
+.IconButton {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0;
+    padding: 0.625rem;
+    aspect-ratio: 1/1;
+}
+
+
+.IconButton>* {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: var(--LTPink);
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    max-width: 1.875rem;
+    max-height: 1.875rem;
+}

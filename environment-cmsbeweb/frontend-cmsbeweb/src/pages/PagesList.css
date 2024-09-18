@@ -1,0 +1,21 @@
+#pageslistdark {
+  background-color: var(--DTDarkGray); 
+}
+
+.pagelist div {
+display: inline-block;
+}
+.pagelist {
+  display:flex;
+}
+
+#contentpagelistitems {
+  padding:3.125rem;
+  width:100%;
+}
+
+#contentpagelistitems >* {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}

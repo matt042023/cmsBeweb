@@ -1,0 +1,27 @@
+@import url('../index.css');
+
+.Prevdiv {
+    display: flex; /* Use Flexbox */
+}
+  
+.MainContent {
+  flex: 1; 
+  padding-top: 5rem; 
+  padding-left: 8rem;
+  background-color:var(--LTGray);
+}
+
+.projectName{
+    font-size: 1rem;
+    color:var(--LTWhiteLighter);
+
+}
+.prevProject{
+    height: 5%;
+    width: 80%;
+    background-color:var(--LTWhiteLighter);
+}
+
+.button-container{
+    position: absolute;
+}

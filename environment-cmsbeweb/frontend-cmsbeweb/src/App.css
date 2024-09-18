@@ -1,0 +1,34 @@
+.titleText{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.buttonText{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.headerText{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.textDefault{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.App {
+  height:100vh;
+}
+  
+#appdark {
+  background-color: var(--DTDarkGray);
+}

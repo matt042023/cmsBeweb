@@ -1,0 +1,59 @@
+.delete-project-overlay {
+    width: 40rem;
+    height: 20rem;
+    background-color: var(--LTWhiteDarker);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrage vertical */
+    text-align: center;
+}
+
+.delete-project-overlay input[type="password"] {
+    background-color: #FFFF; /* Fond blanc */
+    color: var(--DTDarkGray); /* Texte noir */
+    border: none;
+    border-radius: 3rem;
+    border-color: rgb(0, 0, 0);
+    height: 3rem;
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.delete-project-overlay.dark {
+    background-color: var(--DTBlack);
+    color: var(--DTWhiteDarker);
+}
+
+.delete-project-overlay input {
+    background-color: var(--DTDarkGray);
+    color: var(--DTWhiteDarker);
+}
+
+.delete-project-overlay h3 {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.delete-project-overlay form {
+    margin-top: 4.375rem;
+}
+
+#deleteprojectbuttons {
+    margin-top: 2rem; /* Ajout de marge pour espacer les boutons */
+}
+
+#deleteprojectbuttons button {
+    background-color: var(--DTPink);
+    border: none;
+    margin: 0.5rem;
+    color: var(--DTWhiteDarker);
+    border-radius: 4rem;
+    height: 3.125rem;
+    width: 6.688rem;
+}

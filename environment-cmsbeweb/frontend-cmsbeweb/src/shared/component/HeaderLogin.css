@@ -1,0 +1,26 @@
+.headerBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.125rem;
+    margin: 0 auto; 
+    gap: 2.5rem;
+}
+
+.headerBody > svg {
+    height: 5.625rem; 
+    /* Ajuster la hauteur du logo */
+    width: 13.25rem; 
+    /* Ajuster la largeur du logo */
+    cursor: pointer;
+}
+.light {
+    background-color: var(--LTWhiteDarker);
+    border-bottom: 0.063rem solid var(--LTGray);
+}
+
+
+.dark  {
+    background-color: var(--DTBlack);
+    border-bottom: 0.063rem solid var(--DTLightGray);
+}

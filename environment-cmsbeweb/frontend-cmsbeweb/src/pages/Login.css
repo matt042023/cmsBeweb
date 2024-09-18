@@ -1,0 +1,30 @@
+@import url('../index.css');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.form-container {
+    width: 20rem;
+    background-color: var(--LTWhiteDarker);
+   padding: 1.8rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Text {
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}

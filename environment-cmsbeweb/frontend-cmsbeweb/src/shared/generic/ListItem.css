@@ -1,0 +1,34 @@
+/* GENERIC */
+
+.ListItem {
+    margin-top: 1.25rem;
+    display: grid;
+    width: 62.5rem;
+    border: none;
+    padding : 0 2.5rem;
+    border-radius: 1.25rem;
+    gap: 1.25rem;
+  }
+  
+.ListItem > p {
+    margin: 0;
+    padding: 0;
+    line-height: 3.125rem;
+}
+
+/* LIGHT MODE */
+
+.ListItem[isdarkmode=false] {
+    background-color: var(--LTWhiteLighter);
+}
+
+
+/* DARK MODE */
+
+.ListItem[isdarkmode=true] {
+    background-color: var(--DTDarkGray);
+}
+
+.ListItem[isdarkmode=true] > p  {
+    color: var(--DTWhiteDarker);
+}

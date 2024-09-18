@@ -1,0 +1,31 @@
+.FormInput {
+    display: inline-block;
+    width: fit-content;
+}
+
+.FormInput > * {
+    display: block;
+    width: 23.438rem;
+}
+
+.FormInput > select , .FormInput > input {
+    background-color: var(--LTWhiteLighter);
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    height: 3rem;
+    margin-top: 0.625rem;
+}
+
+.FormInput[isdarkmode=false] > select , .FormInput[isdarkmode=false] > input {
+    background-color: var(--LTWhiteLighter);
+}
+
+.FormInput[isdarkmode=true] {
+    color: var(--DTWhiteDarker);
+}
+
+.FormInput[isdarkmode=true] > select , .FormInput[isdarkmode=true] > input {
+    background-color: var(--DTDarkGray);
+    color: var(--DTWhiteDarker);
+}

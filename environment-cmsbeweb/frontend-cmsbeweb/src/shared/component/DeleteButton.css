@@ -1,0 +1,24 @@
+#deletebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--DTPink);
+    color:var(--DTWhiteDarker);
+    height:3.125rem;
+    width:9.313rem;
+    font-size: 0.9rem;
+    padding-left: 0.938rem;
+    text-align: center;
+    padding-bottom: 0.313rem;
+}
+
+.bi-trash-fill
+{
+    color:var(--DTWhiteDarker);
+    font-size: 1.3rem;
+    margin-left: 0.313rem;
+}
+
+#deletebutton:hover{
+    cursor: pointer;
+}

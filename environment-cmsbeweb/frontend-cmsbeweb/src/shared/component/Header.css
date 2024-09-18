@@ -1,0 +1,40 @@
+.headerBody{
+    display: grid;
+    max-width: 90rem;
+    width: fit-content;
+    height: 8.125rem;
+    margin: auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    gap:2.5rem;
+}
+
+.headerBody > .titleText {
+    color: var(--LTPink);
+    user-select: none;
+    margin: 0;
+}
+
+.headerBody > svg {
+    margin: 0;
+    padding: 0;
+    height: 5.625rem;
+    width: 13.25rem;
+    cursor: pointer;
+}
+
+.headerSearchBar {
+    width:3.125rem;
+}
+
+
+.Header[data-isdarkmode="false"] {
+    background-color: var(--LTWhiteDarker);
+    border-bottom: 0.063rem solid var(--LTGray);
+}
+
+
+.Header[data-isdarkmode="true"]  {
+    background-color: var(--DTBlack);
+    border-bottom: 0.063rem solid var(--DTLightGray);
+}

@@ -1,0 +1,12 @@
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-button {
+    display: flex;
+    justify-content: center;
+    /* Centre horizontalement les éléments enfants */
+}

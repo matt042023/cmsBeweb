@@ -1,0 +1,19 @@
+/* GENERIC */
+
+.ListHeader {
+    display: grid;
+    width: 62.5rem;
+    border: none;
+    padding : 0 2.5rem;
+    border-radius: 1.25rem;
+    gap: 1.25rem;
+    background-color: var(--LTPink);
+  }
+  
+.ListHeader > p {
+    margin: 0;
+    padding: 0;
+    line-height: 3.125rem;
+    color: var(--LTWhiteDarker);
+}
+
